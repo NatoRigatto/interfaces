@@ -1,6 +1,6 @@
 package aula_01.model.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 	
 	public double tax(double amount) {
 		
